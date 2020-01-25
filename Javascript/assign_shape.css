@@ -1,0 +1,28 @@
+#circle {
+
+  height: 200px;
+  width: 200px;
+  /*background-color: #555;*/
+  border-radius: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: solid;
+   background: blue;
+   
+}
+#triangle-bottomright {
+	  margin-top: 40px;
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid red;
+      border-left: 100px solid transparent;
+      margin-left: auto;
+   margin-right: auto;
+   
+
+    }
+
+ button {
+  margin:auto;
+  display:block;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="calc_project.css">
+</head>
+<body>
+     <script src="calculator.js">
+     </script>
+    <h1><center>Calculator</center> </h1>
+    <center><input id="inp_id" type="text" ><br></center>
+ 
+    <table id="table_dig" style="width:400px" align="center">
+        <tr>
+          <td><input class="dig" type="button" value="AC" onclick="myAc()"></td>
+          <td><input class="dig" type="button" value="+/-" onclick="msg_plms()"></td>
+          <td><input class="dig" type="button" value="%" onclick="msg_per()"></td>
+          <td><input class="dig" type="button" value="/" onclick="msg_divide()"></td>
+        </tr>
+        <tr>
+          <td><input class="dig" type="button" value="7" onclick="msg_seven()"></td>
+          <td><input class="dig" type="button" value="8" onclick="msg_eight()"></td>
+          <td><input class="dig" type="button" value="9" onclick="msg_nine()"></td>
+          <td><input class="dig" type="button" value="*" onclick="msg_multiply()"></td>
+        </tr>
+        <tr>
+            <td><input class="dig" type="button" value="4" onclick="msg_four()"></td>
+            <td><input class="dig" type="button" value="5" onclick="msg_five()"></td>
+            <td><input class="dig" type="button" value="6" onclick="msg_six()"></td>
+            <td><input class="dig" type="button" value="-" onclick="msg_minus()"></td>
+        </tr>
+        <tr>
+            <td><input class="dig" type="button" value="1" onclick="msg_one()"></td>
+            <td><input class="dig" type="button" value="2" onclick="msg_two()"></td>
+            <td><input class="dig" type="button" value="3" onclick="msg_three()"></td>
+            <td><input class="dig" type="button" value="+" onclick="msg_plus()"></td>
+        </tr>
+        <tr>
+            <!-- <th colspan="3">
+            <h3>0</h3>
+            </th>
+            */-->
+            <th colspan="3"> <input class="dig_zero" type="button" value="0" onclick="msg_zero()"></th>
+            <td><input class="dig" type="button" value="=" onclick="msg_final()"></td>
+        </tr>
+      </table>
+</body>
+</html>

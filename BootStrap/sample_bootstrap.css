@@ -1,0 +1,22 @@
+h1{
+	text-align: center;
+}
+
+#First{
+  background-color: lightgrey;
+  float:left;
+  width: 200px;
+  height: 450px;
+  border: 1px solid ;
+  padding: 30px;
+  margin: 20px;
+  
+}
+#Second{
+  width: 300px;
+  float:left;
+  display: inline-block;
+  height: 550px;
+  margin: 20px;
+  border: 1px solid ;
+}
